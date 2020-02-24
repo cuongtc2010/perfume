@@ -1,0 +1,693 @@
+2020-02-16 08:21:56 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:21:56 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '50389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841316.247
+    'REQUEST_TIME' => 1581841316
+]
+2020-02-16 08:26:07 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:26:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '50977'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841567.591
+    'REQUEST_TIME' => 1581841567
+]
+2020-02-16 08:26:37 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:26:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51040'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841597.075
+    'REQUEST_TIME' => 1581841597
+]
+2020-02-16 08:26:38 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:26:38 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841598.089
+    'REQUEST_TIME' => 1581841598
+]
+2020-02-16 08:27:48 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:27:48 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51193'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841668.66
+    'REQUEST_TIME' => 1581841668
+]
+2020-02-16 08:28:43 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:28:43 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841723.362
+    'REQUEST_TIME' => 1581841723
+]
+2020-02-16 08:28:44 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:28:44 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51315'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841724.591
+    'REQUEST_TIME' => 1581841724
+]
+2020-02-16 08:29:06 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:29:06 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51363'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841746.566
+    'REQUEST_TIME' => 1581841746
+]
+2020-02-16 08:29:19 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php:1669
+Stack trace:
+#0 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Request.php(1651): yii\web\Request->loadCookies()
+#1 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(586): yii\web\Request->getCookies()
+#2 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(314): yii\web\User->getIdentityAndDurationFromCookie()
+#3 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(707): yii\web\User->loginByCookie()
+#4 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(192): yii\web\User->renewAuthStatus()
+#5 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/User.php(360): yii\web\User->getIdentity()
+#6 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Component.php(139): yii\web\User->getIsGuest()
+#7 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php(83): yii\base\Component->__get('isGuest')
+#8 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#11 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#12 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#13 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(247): yii\BaseYii::createObject(Array)
+#14 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2-debug/src/Module.php(218): yii\debug\Module->initPanels()
+#15 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\debug\Module->init()
+#16 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(158): yii\base\BaseObject->__construct(Array)
+#17 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#18 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#19 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#20 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#21 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Module.php(427): yii\BaseYii::createObject(Array, Array)
+#22 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(315): yii\base\Module->getModule('debug')
+#23 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#24 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#25 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#26 /Users/phamcuong/Documents/Project/Web/wm-store/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#27 /Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php(17): yii\base\Application->__construct(Array)
+#28 {main}
+2020-02-16 08:29:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/wm-store/environments/dev/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,zh-TW;q=0.4,zh;q=0.3'
+    'PATH' => '/usr/local/sbin:/usr/local/opt/php@7.1/bin:/usr/local/mysql/bin:/Users/phamcuong/Documents/Project/Mobile/Flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Unix) PHP/7.1.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/phamcuong/Documents/Project/Web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/phamcuong/Documents/Project/Web/wm-store/environments/dev/frontend/web/index.php'
+    'REMOTE_PORT' => '51391'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wm-store/environments/dev/frontend/web/'
+    'SCRIPT_NAME' => '/wm-store/environments/dev/frontend/web/index.php'
+    'PHP_SELF' => '/wm-store/environments/dev/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581841759.236
+    'REQUEST_TIME' => 1581841759
+]

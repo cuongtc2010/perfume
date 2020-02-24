@@ -35,7 +35,7 @@ AppAsset::register($this);
                 <!--Logo start-->
                 <div class="col-lg-3 col-md-3 col-6 order-lg-1 order-md-1 order-1">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
                     </div>
                 </div>
                 <!--Logo end-->
@@ -147,7 +147,7 @@ AppAsset::register($this);
                             <ul class="cart-items">
                                 <li class="single-cart-item">
                                     <div class="cart-img">
-                                        <a href="cart.html"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+                                        <a href="cart.html"><img src="images/cart/cart-1.jpg" alt=""></a>
                                     </div>
                                     <div class="cart-content">
                                         <h5 class="product-name"><a href="single-product.html">Dell Inspiron
@@ -161,7 +161,7 @@ AppAsset::register($this);
                                 </li>
                                 <li class="single-cart-item">
                                     <div class="cart-img">
-                                        <a href="cart.html"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+                                        <a href="cart.html"><img src="images/cart/cart-2.jpg" alt=""></a>
                                     </div>
                                     <div class="cart-content">
                                         <h5 class="product-name"><a href="single-product.html">Lenovo Ideacentre
@@ -224,9 +224,9 @@ AppAsset::register($this);
         <!--Hero Item start-->
         <div class="slick-list draggable">
             <div class="slick-track" style="opacity: 1; width: 6830px; transform: translate3d(-1366px, 0px, 0px);">
-                <div class="hero-item bg-image slick-slide slick-cloned" data-bg="./assets/images/hero/hero-4.jpg"
+                <div class="hero-item bg-image slick-slide slick-cloned" data-bg="./images/hero/hero-4.jpg"
                      data-slick-index="-1"
-                     style="background-image: url(&quot;./assets/images/hero/hero-4.jpg&quot;); width: 1366px;"
+                     style="background-image: url(&quot;./images/hero/hero-4.jpg&quot;); width: 1366px;"
                      aria-hidden="true" tabindex="-1">
                     <div class="container">
                         <div class="row">
@@ -248,8 +248,8 @@ AppAsset::register($this);
                     </div>
                 </div>
                 <div class="hero-item bg-image slick-slide slick-current slick-active"
-                     data-bg="./assets/images/hero/hero-3.jpg" data-slick-index="0"
-                     style="background-image: url(&quot;./assets/images/hero/hero-3.jpg&quot;); width: 1366px;"
+                     data-bg="./images/hero/hero-3.jpg" data-slick-index="0"
+                     style="background-image: url(&quot;./images/hero/hero-3.jpg&quot;); width: 1366px;"
                      aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00"
                      aria-describedby="slick-slide-control00">
                     <div class="container">
@@ -271,9 +271,9 @@ AppAsset::register($this);
                         </div>
                     </div>
                 </div>
-                <div class="hero-item bg-image slick-slide" data-bg="./assets/images/hero/hero-4.jpg"
+                <div class="hero-item bg-image slick-slide" data-bg="./images/hero/hero-4.jpg"
                      data-slick-index="1"
-                     style="background-image: url(&quot;./assets/images/hero/hero-4.jpg&quot;); width: 1366px;"
+                     style="background-image: url(&quot;./images/hero/hero-4.jpg&quot;); width: 1366px;"
                      aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide01"
                      aria-describedby="slick-slide-control01">
                     <div class="container">
@@ -295,9 +295,9 @@ AppAsset::register($this);
                         </div>
                     </div>
                 </div>
-                <div class="hero-item bg-image slick-slide slick-cloned" data-bg="./assets/images/hero/hero-3.jpg"
+                <div class="hero-item bg-image slick-slide slick-cloned" data-bg="./images/hero/hero-3.jpg"
                      data-slick-index="2"
-                     style="background-image: url(&quot;./assets/images/hero/hero-3.jpg&quot;); width: 1366px;"
+                     style="background-image: url(&quot;./images/hero/hero-3.jpg&quot;); width: 1366px;"
                      aria-hidden="true" tabindex="-1">
                     <div class="container">
                         <div class="row">
@@ -318,9 +318,9 @@ AppAsset::register($this);
                         </div>
                     </div>
                 </div>
-                <div class="hero-item bg-image slick-slide slick-cloned" data-bg="./assets/images/hero/hero-4.jpg"
+                <div class="hero-item bg-image slick-slide slick-cloned" data-bg="./images/hero/hero-4.jpg"
                      data-slick-index="3"
-                     style="background-image: url(&quot;./assets/images/hero/hero-4.jpg&quot;); width: 1366px;"
+                     style="background-image: url(&quot;./images/hero/hero-4.jpg&quot;); width: 1366px;"
                      aria-hidden="true" tabindex="-1">
                     <div class="container">
                         <div class="row">
@@ -424,7 +424,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-6.jpg" alt="">
+                                            <img src="./images/product/product-6.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -461,7 +461,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-7.jpg" alt="">
+                                            <img src="./images/product/product-7.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -497,7 +497,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -533,7 +533,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-1.jpg" alt="">
+                                            <img src="./images/product/product-1.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -569,7 +569,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-2.jpg" alt="">
+                                            <img src="./images/product/product-2.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -604,7 +604,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-3.jpg" alt="">
+                                            <img src="./images/product/product-3.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -639,7 +639,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-4.jpg" alt="">
+                                            <img src="./images/product/product-4.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -675,7 +675,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-5.jpg" alt="">
+                                            <img src="./images/product/product-5.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -711,7 +711,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-6.jpg" alt="">
+                                            <img src="./images/product/product-6.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -748,7 +748,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-7.jpg" alt="">
+                                            <img src="./images/product/product-7.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -784,7 +784,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -820,7 +820,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-1.jpg" alt="">
+                                            <img src="./images/product/product-1.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -857,7 +857,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-2.jpg" alt="">
+                                            <img src="./images/product/product-2.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -893,7 +893,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-3.jpg" alt="">
+                                            <img src="./images/product/product-3.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -929,7 +929,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-4.jpg" alt="">
+                                            <img src="./images/product/product-4.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -965,7 +965,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-5.jpg" alt="">
+                                            <img src="./images/product/product-5.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1001,7 +1001,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-6.jpg" alt="">
+                                            <img src="./images/product/product-6.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1038,7 +1038,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-7.jpg" alt="">
+                                            <img src="./images/product/product-7.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1074,7 +1074,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1146,7 +1146,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="-1">
-                                                <img src="./assets/images/deal-product/product-3.jpg" alt="">
+                                                <img src="./images/deal-product/product-3.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1180,7 +1180,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="0">
-                                                <img src="./assets/images/deal-product/product-1.jpg" alt="">
+                                                <img src="./images/deal-product/product-1.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1214,7 +1214,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="-1">
-                                                <img src="./assets/images/deal-product/product-2.jpg" alt="">
+                                                <img src="./images/deal-product/product-2.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1248,7 +1248,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="-1">
-                                                <img src="./assets/images/deal-product/product-3.jpg" alt="">
+                                                <img src="./images/deal-product/product-3.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1282,7 +1282,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="-1">
-                                                <img src="./assets/images/deal-product/product-1.jpg" alt="">
+                                                <img src="./images/deal-product/product-1.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1316,7 +1316,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="-1">
-                                                <img src="./assets/images/deal-product/product-2.jpg" alt="">
+                                                <img src="./images/deal-product/product-2.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1350,7 +1350,7 @@ AppAsset::register($this);
                                     <div class="col-lg-6 col-md-6">
                                         <div class="deal-product-img">
                                             <a href="single-product.html" tabindex="-1">
-                                                <img src="./assets/images/deal-product/product-3.jpg" alt="">
+                                                <img src="./images/deal-product/product-3.jpg" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1459,7 +1459,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-6.jpg" alt="">
+                                            <img src="./images/product/product-6.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1496,7 +1496,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-7.jpg" alt="">
+                                            <img src="./images/product/product-7.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1532,7 +1532,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1568,7 +1568,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-12.jpg" alt="">
+                                            <img src="./images/product/product-12.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1604,7 +1604,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-13.jpg" alt="">
+                                            <img src="./images/product/product-13.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1639,7 +1639,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-14.jpg" alt="">
+                                            <img src="./images/product/product-14.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1674,7 +1674,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-4.jpg" alt="">
+                                            <img src="./images/product/product-4.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1710,7 +1710,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-5.jpg" alt="">
+                                            <img src="./images/product/product-5.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1746,7 +1746,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-6.jpg" alt="">
+                                            <img src="./images/product/product-6.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1783,7 +1783,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-7.jpg" alt="">
+                                            <img src="./images/product/product-7.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1819,7 +1819,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1855,7 +1855,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-12.jpg" alt="">
+                                            <img src="./images/product/product-12.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1892,7 +1892,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-13.jpg" alt="">
+                                            <img src="./images/product/product-13.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1928,7 +1928,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-14.jpg" alt="">
+                                            <img src="./images/product/product-14.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -1964,7 +1964,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-4.jpg" alt="">
+                                            <img src="./images/product/product-4.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2000,7 +2000,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-5.jpg" alt="">
+                                            <img src="./images/product/product-5.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2036,7 +2036,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-6.jpg" alt="">
+                                            <img src="./images/product/product-6.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2073,7 +2073,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-7.jpg" alt="">
+                                            <img src="./images/product/product-7.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2109,7 +2109,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2149,8 +2149,8 @@ AppAsset::register($this);
     </div>
 </div>
 <div class="banner-section section bg-image pt-95 pt-lg-75 pt-md-65 pt-sm-55 pt-xs-45 pb-95 pb-lg-75 pb-md-65 pb-sm-55 pb-xs-45"
-     data-bg="./assets/images/banner/img_bannermid.jpg"
-     style="background-image: url(&quot;./assets/images/banner/img_bannermid.jpg&quot;);">
+     data-bg="./images/banner/img_bannermid.jpg"
+     style="background-image: url(&quot;./images/banner/img_bannermid.jpg&quot;);">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -2233,7 +2233,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-12.jpg" alt="">
+                                            <img src="./images/product/product-12.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2270,7 +2270,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-13.jpg" alt="">
+                                            <img src="./images/product/product-13.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2306,7 +2306,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-14.jpg" alt="">
+                                            <img src="./images/product/product-14.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2342,7 +2342,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-15.jpg" alt="">
+                                            <img src="./images/product/product-15.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2377,7 +2377,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-16.jpg" alt="">
+                                            <img src="./images/product/product-16.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2412,7 +2412,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="0">
-                                            <img src="./assets/images/product/product-17.jpg" alt="">
+                                            <img src="./images/product/product-17.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2448,7 +2448,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-18.jpg" alt="">
+                                            <img src="./images/product/product-18.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2484,7 +2484,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2520,7 +2520,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-12.jpg" alt="">
+                                            <img src="./images/product/product-12.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2557,7 +2557,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-13.jpg" alt="">
+                                            <img src="./images/product/product-13.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2593,7 +2593,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-14.jpg" alt="">
+                                            <img src="./images/product/product-14.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2629,7 +2629,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-15.jpg" alt="">
+                                            <img src="./images/product/product-15.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2665,7 +2665,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-16.jpg" alt="">
+                                            <img src="./images/product/product-16.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2701,7 +2701,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-17.jpg" alt="">
+                                            <img src="./images/product/product-17.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2738,7 +2738,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-18.jpg" alt="">
+                                            <img src="./images/product/product-18.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2774,7 +2774,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-8.jpg" alt="">
+                                            <img src="./images/product/product-8.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2810,7 +2810,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-12.jpg" alt="">
+                                            <img src="./images/product/product-12.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2847,7 +2847,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-13.jpg" alt="">
+                                            <img src="./images/product/product-13.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2883,7 +2883,7 @@ AppAsset::register($this);
                                 <div class="single-product mb-30">
                                     <div class="product-img">
                                         <a href="single-product.html" tabindex="-1">
-                                            <img src="./assets/images/product/product-14.jpg" alt="">
+                                            <img src="./images/product/product-14.jpg" alt="">
                                         </a>
                                         <span class="descount-sticker">-10%</span>
                                         <span class="sticker">New</span>
@@ -2923,7 +2923,7 @@ AppAsset::register($this);
     </div>
 </div>
 <div class="cta-section section bg-image pt-95 pt-lg-75 pt-md-65 pt-sm-55 pt-xs-45 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-40"
-     data-bg="assets/images/bg/cta-bg.jpg" style="background-image: url(&quot;assets/images/bg/cta-bg.jpg&quot;);">
+     data-bg="images/bg/cta-bg.jpg" style="background-image: url(&quot;images/bg/cta-bg.jpg&quot;);">
     <div class="container">
         <div class="row">
 
@@ -2999,7 +2999,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog2.png" alt=""></a></div>
+                                            src="./images/blog/blog2.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog image post</a></h3>
                                 <ul class="meta">
@@ -3017,7 +3017,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog3.png" alt=""></a></div>
+                                            src="./images/blog/blog3.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog Audio post</a></h3>
                                 <ul class="meta">
@@ -3035,7 +3035,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog1.png" alt=""></a></div>
+                                            src="./images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog Video post</a></h3>
                                 <ul class="meta">
@@ -3053,7 +3053,7 @@ AppAsset::register($this);
                          aria-hidden="false" style="width: 400px;" tabindex="0">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="0"><img
-                                            src="./assets/images/blog/blog1.png" alt=""></a></div>
+                                            src="./images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="0">Cool boy with tattoo</a>
                                 </h3>
@@ -3072,7 +3072,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="0">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="0"><img
-                                            src="./assets/images/blog/blog2.png" alt=""></a></div>
+                                            src="./images/blog/blog2.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="0">Blog image post</a></h3>
                                 <ul class="meta">
@@ -3090,7 +3090,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="0">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="0"><img
-                                            src="./assets/images/blog/blog3.png" alt=""></a></div>
+                                            src="./images/blog/blog3.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="0">Blog Audio post</a></h3>
                                 <ul class="meta">
@@ -3108,7 +3108,7 @@ AppAsset::register($this);
                          tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog1.png" alt=""></a></div>
+                                            src="./images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog Video post</a></h3>
                                 <ul class="meta">
@@ -3126,7 +3126,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog1.png" alt=""></a></div>
+                                            src="./images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Cool boy with tattoo</a>
                                 </h3>
@@ -3145,7 +3145,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog2.png" alt=""></a></div>
+                                            src="./images/blog/blog2.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog image post</a></h3>
                                 <ul class="meta">
@@ -3163,7 +3163,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog3.png" alt=""></a></div>
+                                            src="./images/blog/blog3.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog Audio post</a></h3>
                                 <ul class="meta">
@@ -3181,7 +3181,7 @@ AppAsset::register($this);
                          style="width: 400px;" tabindex="-1">
                         <div class="blog-inner">
                             <div class="media"><a href="blog-details.html" class="image" tabindex="-1"><img
-                                            src="./assets/images/blog/blog1.png" alt=""></a></div>
+                                            src="./images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
                                 <h3 class="title"><a href="blog-details.html" tabindex="-1">Blog Video post</a></h3>
                                 <ul class="meta">
@@ -3219,7 +3219,7 @@ AppAsset::register($this);
                 <!-- Single Categorie Product Start -->
                 <div class="single-categorie">
                     <div class="categorie-image">
-                        <img src="./assets/images/categorie/cate-1.png" alt="">
+                        <img src="./images/categorie/cate-1.png" alt="">
                     </div>
                     <div class="categorie-content">
                         <h3>Now introducing</h3>
@@ -3233,7 +3233,7 @@ AppAsset::register($this);
                 <!-- Single Categorie Product Start -->
                 <div class="single-categorie">
                     <div class="categorie-image">
-                        <img src="./assets/images/categorie/cate-2.png" alt="">
+                        <img src="./images/categorie/cate-2.png" alt="">
                     </div>
                     <div class="categorie-content">
                         <h3>Wrinkle cure</h3>
@@ -3247,7 +3247,7 @@ AppAsset::register($this);
                 <!-- Single Categorie Product Start -->
                 <div class="single-categorie">
                     <div class="categorie-image">
-                        <img src="./assets/images/categorie/cate-3.png" alt="">
+                        <img src="./images/categorie/cate-3.png" alt="">
                     </div>
                     <div class="categorie-content">
                         <h3>Pretty perks for every point you earn</h3>
@@ -3326,7 +3326,7 @@ AppAsset::register($this);
                         <li><i class="fa fa-envelope-o"></i><span><a href="#">yourmail@domain.com</a></span></li>
                     </ul>
                     <div class="payment-box mt-15 mb-15">
-                        <a href="#"><img src="./assets/images/payment.png" alt=""></a>
+                        <a href="#"><img src="./images/payment.png" alt=""></a>
                     </div>
                 </div>
                 <!--Footer Widget end-->
@@ -3346,7 +3346,7 @@ AppAsset::register($this);
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4">
                     <div class="footer-logo text-right">
-                        <a href="index.html"><img src="./assets/images/logofoo.png" alt=""></a>
+                        <a href="index.html"><img src="./images/logofoo.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -3385,58 +3385,58 @@ AppAsset::register($this);
                                              style="opacity: 1; width: 4213px; transform: translate3d(-383px, 0px, 0px);">
                                             <div class="lg-image slick-slide slick-cloned" data-slick-index="-1"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-5.jpg"
+                                                <img src="./images/product/large-product/l-product-5.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide slick-current slick-active"
                                                  data-slick-index="0" aria-hidden="false" style="width: 383px;"
                                                  tabindex="0">
-                                                <img src="./assets/images/product/large-product/l-product-1.jpg"
+                                                <img src="./images/product/large-product/l-product-1.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide" data-slick-index="1"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-2.jpg"
+                                                <img src="./images/product/large-product/l-product-2.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide" data-slick-index="2"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-3.jpg"
+                                                <img src="./images/product/large-product/l-product-3.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide" data-slick-index="3"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-4.jpg"
+                                                <img src="./images/product/large-product/l-product-4.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide" data-slick-index="4"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-5.jpg"
+                                                <img src="./images/product/large-product/l-product-5.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide slick-cloned" data-slick-index="5"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-1.jpg"
+                                                <img src="./images/product/large-product/l-product-1.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide slick-cloned" data-slick-index="6"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-2.jpg"
+                                                <img src="./images/product/large-product/l-product-2.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide slick-cloned" data-slick-index="7"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-3.jpg"
+                                                <img src="./images/product/large-product/l-product-3.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide slick-cloned" data-slick-index="8"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-4.jpg"
+                                                <img src="./images/product/large-product/l-product-4.jpg"
                                                      alt="">
                                             </div>
                                             <div class="lg-image slick-slide slick-cloned" data-slick-index="9"
                                                  aria-hidden="true" style="width: 383px;" tabindex="-1">
-                                                <img src="./assets/images/product/large-product/l-product-5.jpg"
+                                                <img src="./images/product/large-product/l-product-5.jpg"
                                                      alt="">
                                             </div>
                                         </div>
@@ -3472,60 +3472,60 @@ AppAsset::register($this);
                                              style="opacity: 1; width: 1386px; transform: translate3d(-396px, 0px, 0px);">
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="-4"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-2.jpg"
+                                                        src="./images/product/small-product/s-product-2.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="-3"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-3.jpg"
+                                                        src="./images/product/small-product/s-product-3.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="-2"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-4.jpg"
+                                                        src="./images/product/small-product/s-product-4.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="-1"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-5.jpg"
+                                                        src="./images/product/small-product/s-product-5.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-current slick-active"
                                                  data-slick-index="0" aria-hidden="false" style="width: 99px;"
                                                  tabindex="0"><img
-                                                        src="./assets/images/product/small-product/s-product-1.jpg"
+                                                        src="./images/product/small-product/s-product-1.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-active" data-slick-index="1"
                                                  aria-hidden="false" style="width: 99px;" tabindex="0"><img
-                                                        src="./assets/images/product/small-product/s-product-2.jpg"
+                                                        src="./images/product/small-product/s-product-2.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-active" data-slick-index="2"
                                                  aria-hidden="false" style="width: 99px;" tabindex="0"><img
-                                                        src="./assets/images/product/small-product/s-product-3.jpg"
+                                                        src="./images/product/small-product/s-product-3.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-active" data-slick-index="3"
                                                  aria-hidden="false" style="width: 99px;" tabindex="0"><img
-                                                        src="./assets/images/product/small-product/s-product-4.jpg"
+                                                        src="./images/product/small-product/s-product-4.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide" data-slick-index="4"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-5.jpg"
+                                                        src="./images/product/small-product/s-product-5.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="5"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-1.jpg"
+                                                        src="./images/product/small-product/s-product-1.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="6"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-2.jpg"
+                                                        src="./images/product/small-product/s-product-2.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="7"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-3.jpg"
+                                                        src="./images/product/small-product/s-product-3.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="8"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-4.jpg"
+                                                        src="./images/product/small-product/s-product-4.jpg"
                                                         alt="product image thumb"></div>
                                             <div class="sm-image slick-slide slick-cloned" data-slick-index="9"
                                                  aria-hidden="true" style="width: 99px;" tabindex="-1"><img
-                                                        src="./assets/images/product/small-product/s-product-5.jpg"
+                                                        src="./images/product/small-product/s-product-5.jpg"
                                                         alt="product image thumb"></div>
                                         </div>
                                     </div>

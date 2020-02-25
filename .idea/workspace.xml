@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7e85fa0-2939-43c1-909c-4db435003ca4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/AppAsset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/vendor/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/vendor/modernizr-2.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582566439170</updated>
       <workItem from="1582566440446" duration="1011000" />
-      <workItem from="1582646279446" duration="2194000" />
+      <workItem from="1582646279446" duration="3199000" />
     </task>
     <task id="LOCAL-00001" summary="Add image example for template">
       <created>1582566728929</created>

@@ -1,4 +1,7 @@
 <?php
+use yii\web\Request;
+$baseUrl =  str_replace('/backend/web', '/admin', (new Request)->getBaseUrl());
+
 $params = array_merge(
     require __DIR__ . '/../../common/config/params.php',
     require __DIR__ . '/params.php'
@@ -12,6 +15,7 @@ $config = [
     'modules' => [],
     'components' => [
         'request' => [
+            'baseUrl' => $baseUrl,
             'csrfParam' => '_csrf-backend',
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'TmmM96nEKQrTGm4P3ayIHr1GA6qzyWSb',
@@ -37,16 +41,17 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*'urlManager' => [
-            'enablePrettyUrl' => false,
+        'urlManager' => [
+            'baseUrl' => $baseUrl,
+            'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
-            ],
-        ],*/
-
+                '<action:(.*)>' => 'site/<action>'
+            ]
+        ],
     ],
     'params' => $params,
 ];

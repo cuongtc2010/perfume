@@ -17,6 +17,6 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
-        'db' => __DIR__ . '/dbConfig.php'
+//        'db' => __DIR__ . '/dbConfig.php'
     ],
 ];

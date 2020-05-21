@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7e85fa0-2939-43c1-909c-4db435003ca4" name="Default Changelist" comment="">
+    <list default="true" id="a7e85fa0-2939-43c1-909c-4db435003ca4" name="Default Changelist" comment="Add image example for template">
+      <change afterPath="$PROJECT_DIR$/backend/web/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/components/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/_data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/dbConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/dbConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/config/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" afterPath="$PROJECT_DIR$/yii" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,10 +123,23 @@
   <component name="ProjectId" id="1YGQR5GvIwrQTHNKI3RqoSSHNdN" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/web" />
+      <recent name="$PROJECT_DIR$/frontend/web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/console/config" />
+      <recent name="$PROJECT_DIR$/backend/web" />
+      <recent name="$PROJECT_DIR$/frontend" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,7 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1582566439170</updated>
       <workItem from="1582566440446" duration="1011000" />
-      <workItem from="1582646279446" duration="3199000" />
+      <workItem from="1582646279446" duration="3768000" />
+      <workItem from="1583031944083" duration="5977000" />
+      <workItem from="1583425499071" duration="2744000" />
+      <workItem from="1584173798336" duration="2248000" />
+      <workItem from="1584262350997" duration="2234000" />
+      <workItem from="1584844090641" duration="3435000" />
     </task>
     <task id="LOCAL-00001" summary="Add image example for template">
       <created>1582566728929</created>
